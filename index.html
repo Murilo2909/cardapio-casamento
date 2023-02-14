@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="Style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>Cardápio</title>
+  </head>
+  <body>
+    <div class="custom-modal">
+      <span class="custom-modal-close">&times;</span>
+      <div class="custom-modal-img">
+        <img src="" />
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <header>
+        <div class="dropdown_container">
+          <div class="header_nomes">
+            <a href="/">
+              <div class="nomes"><img src="img/nomes.png" /></div>
+            </a>
+          </div>
+
+          <ul
+            class="nav flex-nowrap d-flex justify-content-between align-items-center"
+            id="menu"
+          >
+            <li class="nav-item dropdown item item_menu">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Comidas</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item btn_select" href="#" id="btn_coquetel"
+                    >Coquetel</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item btn_select"
+                    href="#"
+                    id="btn_mesa_de_tapas"
+                    >Mesa De Tapas</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn_select" href="#" id="btn_jantar"
+                    >Jantar</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn_select" href="#" id="btn_lanches"
+                    >Lanches da madrugada</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn_select" href="#" id="btn_kids"
+                    >Espaço kids</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown item_menu">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Bebidas</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item btn_select" href="#" id="btn_drinks"
+                    >Drinks</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn_select" href="#" id="btn_whisky"
+                    >Whisky</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item btn_select"
+                    href="#"
+                    id="btn_espumante"
+                    >Espumante</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn_select" href="#" id="btn_cervejas"
+                    >Cervejas</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item btn_select"
+                    href="#"
+                    id="btn_nao_alcolicos"
+                    >Não alcólicos</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown item_menu">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Sobremesas</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item btn_select"
+                    href="#"
+                    id="btn_mesa_de_saida"
+                    >Mesa de Saida</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn_select" href="#" id="btn_doces"
+                    >Doces</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="item_menu nav-item dropdown">
+              <a
+                href="https://sites.icasei.com.br/kellyemarcelo/pages/25683738"
+                class="btn custom-btn"
+                id="gravata"
+                >Gravata</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+
+    <div class="container-fluid tab-content card_container">
+      <div
+        class="menus"
+        id="page_coquetel"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <div class="pagina d-flex justify-content-between align-items-center">
+          <h3>Coquetel</h3>
+          <div class="logo">Fornecedor: <img src="img/baracat_logo.jpg" /></div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Cestinha de Camarão</span>
+            <p class="descricao">Cestinha de camarão, sour cream e abacate</p>
+          </div>
+          <div class="card_img">
+            <img src="img/cestinha_de_camarao.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Wonton Tai</span>
+            <p class="descricao">lombo, cenoura e cebola</p>
+          </div>
+          <div class="card_img">
+            <img src="img/wonton_tai.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Carolinas</span>
+            <p class="descricao">
+              Carolinas com creme de camarão, alho-poró e pupunha
+            </p>
+          </div>
+          <div class="card_img">
+            <img src="img/carolina.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Casquinha de tapioca</span>
+            <p class="descricao">
+              Casquinha de tapioca com creme de siri e coco
+            </p>
+          </div>
+          <div class="card_img">
+            <img src="img/casquinha_de_tapioca.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Batatinha</span>
+            <p class="descricao">
+              Batatinha com soufflé de Catupiry e bacon crocante
+            </p>
+          </div>
+          <div class="card_img">
+            <img src="img/batatinha.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Coxinha</span>
+            <p class="descricao">Coxinha cremosa com pimenta biquinho</p>
+          </div>
+          <div class="card_img">
+            <img src="img/coxinha.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="menus"
+        id="page_mesa_de_tapas"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <div class="pagina d-flex justify-content-between align-items-center">
+          <h3>Mesa de Tapas</h3>
+          <div class="logo">Fornecedor:<img src="img/baracat_logo.jpg" /></div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Marquise de Salmão</span>
+            <p class="descricao">
+              Marquise de salmão e raiz forte com molho de iogurte e crisp de
+              erva doce
+            </p>
+          </div>
+          <div class="card_img">
+            <img src="img/marquise_de_salmão.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Couscous Marroquino</span>
+            <p class="descricao">
+              Couscous marroquino com legumes grelhados e queijo feta
+            </p>
+          </div>
+          <div class="card_img">
+            <img src="img/couscous.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Ceviche de linguado com pipoca</span>
+          </div>
+          <div class="card_img">
+            <img src="img/ceviche.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Brie</span>
+            <p class="descricao">
+              Brie quente folhado com amêndoas e favo de mel
+            </p>
+          </div>
+          <div class="card_img">
+            <img src="img/brie.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Escondidinho</span>
+            <p class="descricao">
+              Escondidinho de mandioquinha e ragout de ossobuco com cogumelo
+            </p>
+          </div>
+          <div class="card_img">
+            <img src="img/escondidinho_de_mandioca.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Bobó de camarão</span>
+            <p class="descricao"></p>
+          </div>
+          <div class="card_img">
+            <img src="img/bobó_de_camarão.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Queijos</span>
+            <p class="descricao">
+              Queijos: parmesão, Gruyère, mini búfala, Roquefort, chutney de
+              maçã, mel au poivre e redução balsâmica
+            </p>
+          </div>
+          <div class="card_img">
+            <img src="img/queijos.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Pães</span>
+            <p class="descricao">
+              Pães: brioche, de azeite, de cebolinha, grissini de gergelim e
+              palito de parmesão
+            </p>
+          </div>
+          <div class="card_img">
+            <img src="img/pães.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="menus"
+        id="page_jantar"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <div class="d-flex pagina justify-content-between align-items-center">
+          <h3>Jantar</h3>
+          <div class="logo">Fornecedor:<img src="img/baracat_logo.jpg" /></div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Entrada</span>
+            <p class="descricao">
+              Folhas, frutas, queijo de cabra, amêndoas e vinagrete de framboesa
+            </p>
+          </div>
+          <div class="card_img">
+            <img src="img/tacay.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Ravioli de Mussarela</span>
+            <p class="descricao">
+              Ravioli de mussarela de búfala, molho pomodori e manjericão
+            </p>
+          </div>
+          <div class="card_img">
+            <img src="img/ravioli.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Salmão com molho Dijon</span>
+            <p class="descricao">Salmão com molho Dijon, gengibre e mel</p>
+          </div>
+          <div class="card_img">
+            <img src="img/salmão.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Medalhão com molho de chevrotin</span>
+            <p class="descricao">
+              Medalhão com molho de chevrotin, alecrim e tomate assado
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/medalhão.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Risotto de limão siciliano</span>
+          </div>
+          <div class="card_img">
+            <img src="img/risotto_de_limao.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Folhado de batata</span>
+            <p class="descricao">Folhado de batata, parmesão e alecrim</p>
+          </div>
+          <div class="card_img">
+            <img src="img/folhado_de_batata.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Arroz branco</span>
+          </div>
+          <div class="card_img">
+            <img src="img/arroz.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="menus"
+        id="page_lanches"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <h3>Lanches da Madrugada</h3>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Milk shake de Ovomaltine</span>
+          </div>
+
+          <div class="card_img">
+            <img src="img/milkshake.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Mini pão francês com pernil à vinagrete </span>
+          </div>
+
+          <div class="card_img">
+            <img src="img/Lanche-de-Pernil.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Mini hot dog</span>
+          </div>
+
+          <div class="card_img">
+            <img src="img/mini_hot_dog.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="menus"
+        id="page_kids"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <h3>Espaço kids</h3>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Mini Pizza</span>
+          </div>
+          <div class="card_img">
+            <img src="img/mini_pizza.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Batata Frita</span>
+          </div>
+          <div class="card_img">
+            <img src="img/batata_frita.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Algodão Doce</span>
+          </div>
+          <div class="card_img">
+            <img src="img/algodão_doce.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Pipoca</span>
+          </div>
+          <div class="card_img">
+            <img src="img/pipoca.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Churros</span>
+          </div>
+          <div class="card_img">
+            <img src="img/churros.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Crepe</span>
+            <p class="descricao"></p>
+          </div>
+          <div class="card_img">
+            <img src="img/crepe.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Guloseimas</span>
+            <p class="descricao"></p>
+          </div>
+          <div class="card_img">
+            <img src="img/guloseimas.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Brigadeiro</span>
+          </div>
+          <div class="card_img">
+            <img src="img/Brigadeiro.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Mini Pastel</span>
+            <p class="descricao"></p>
+          </div>
+          <div class="card_img">
+            <img src="img/pastel.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Mini Hamburguer</span>
+          </div>
+          <div class="card_img">
+            <img src="img/mini_hamburguer.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Bebidas  -->
+
+      <div
+        class="menus"
+        id="page_drinks"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <div class="d-flex pagina justify-content-between align-items-center">
+          <h3>Drinks</h3>
+          <div class="logo">Fornecedor:<img src="img/dash_logo.jpg" /></div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome especial">Drink da Noiva</span>
+            <span class="subnome">(Lemon Peach)</span>
+            <p class="descricao">
+              vodka, suco de pêssego, infusão de amora, suco de limão e espuma
+              cítrica
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/lemon_peach.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome especial">Drink do Noivo</span>
+            <span class="subnome">(Old Fashioned)</span>
+            <p class="descrição">whisky, água com gás e infusão de rapadura</p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/old_fashioned.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">GT Fresh</span>
+            <p class="descricao">
+              Drink refrescante, feito com: gin, tônica e Infusão de hortelã
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/gt_fresh.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">GT Tradicional</span>
+            <p class="descricao">
+              Drink cítrico e levemente amargo, feito com: gin, tônica e suco de
+              limão
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/gt_tradicional.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">GT Caviar</span>
+            <p class="descricao">
+              Drink refrescante e levemente amargo, feito com: gin, tônica,
+              infusão de alecrim e caviar de pepino
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/gt_caviar.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">GT Morus</span>
+            <p class="descricao">
+              Drink refrescante e doce, feito com: gin, tônica infusão de amora
+              e caviar de amora
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/gt_morus.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Moscow Mule</span>
+            <p class="descricao">
+              Drink doce e levemente picante, feito com vodka, suco de limão,
+              infusão de gengibre e espuma de gengibre
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/moscow_mule.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Aperol Spritz</span>
+            <p class="descricao">
+              Drink refrescante e levemente amargo, feito com: aperol, espumante
+              e aguá com gás
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/aperol_spritz.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Aperol Sour</span>
+            <p class="descricao">
+              Vodka , aperol, mix de framboesa com laranja e espuma cítrica
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/aperol_sour.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Gold Lemon</span>
+            <p class="descricao">
+              Drink doce e cítrico, feito com: vodka, infusão de rapadura e suco
+              de limão
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/golden_lemon.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Mojito</span>
+            <p class="descricao">
+              Drink refrescante, feito com: rum, suco de limão e infusão de
+              hortelã
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/mojito.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Nexpresso 43</span>
+            <p class="descricao">Café e licor 43</p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/nexpresso_43.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Passion Spritz</span>
+            <p class="descricao">
+              Drink refrescante e doce, feito com: aperol, espumante, infusão
+              passion e chocolate belga
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/passion_spritz.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Ramazzoti Spritz</span>
+            <p class="descricao">
+              Drink refrescante e levemente doce, feito com: espumante
+              ramazzotti e água com gás
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/ramazzotti_spritz.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Lillet Prime</span>
+            <p class="descricao">
+              Drink refrescante, feito com: lillet, tônica, infusão de tangerina
+              e suco de limão
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/lillet_prime.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Negroni</span>
+            <p class="descricao">
+              Drink amargo, feito com: gin vermouth e campari
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/negroni.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Whisky Sour</span>
+            <p class="descricao">
+              Drink amadeirado, cítrico e levemente doce, feito com: Whisky,
+              infusão de rapadura, suco de limão, melaço de cana e espuma
+              cítrica
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/whisky_sour.png" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Paradise</span>
+            <p class="descricao">
+              Drink amadeirado, cítrico e levemente doce, feito com: Whisky,
+              infusão de tagerina, suco de limão e espuma cítrica
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/paradise.png" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="menus"
+        id="page_whisky"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <h3>Whisky</h3>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Jony Walker</span>
+            <p class="descricao">Black Label</p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/jony_walker.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="menus"
+        id="page_espumante"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <h3>Espumante</h3>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Chandon Brut</span>
+            <p class="descricao"></p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/brut.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="menus"
+        id="page_cervejas"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <h3>Cervejas</h3>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Heineken</span>
+            <p class="descricao"></p>
+          </div>
+          <div class="card_img">
+            <img src="img/heinenken.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">S.B Beer</span>
+            <p class="descricao"></p>
+          </div>
+          <div class="card_img">
+            <img src="img/sb.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="menus"
+        id="page_nao_alcolicos"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <h3>Não alcólicos</h3>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Água</span>
+            <p class="descricao">Sem gás e Com gás</p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/água.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Suco de Abacaxi com hortelã</span>
+          </div>
+
+          <div class="card_img">
+            <img src="img/suco_de_abacaxi.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Coca Cola</span>
+            <p class="descricao">Regular e zero</p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/coca_cola.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Guaraná Antártica</span>
+            <p class="descricao">Regular e zero</p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/guarana.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Sobremesas -->
+
+      <div
+        class="menus"
+        id="page_mesa_de_saida"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <h3>Mesa de Saida</h3>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Mesa de Café</span>
+            <p class="descricao">
+              Mesa de café com cookies e brownie de chocolate
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/mesadecafé.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Bem-Casado</span>
+            <p class="descricao"></p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/bem_casado.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="menus"
+        id="page_doces"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <div class="d-flex justify-content-between pagina">
+          <div class="logo d-flex flex-column align-items-center">
+            Fornecedor:<img src="img/ofner_logo.jpg" />
+          </div>
+          <h3>Doces</h3>
+          <div class="logo d-flex flex-column align-items-center">
+            Fornecedor:<img src="img/leola_logo.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Delírio de Chocolate</span>
+            <p class="descricao">
+              Delírio de chocolate e gengibre com zabaione ao Cointreau
+            </p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/delírio_dechocolate.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Mesa de doces finos</span>
+            <p class="descricao"></p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/doces_finos.jpg" />
+          </div>
+        </div>
+
+        <div class="card_single">
+          <div class="informacoes">
+            <span class="nome">Bolo Red Velvet</span>
+            <p class="descricao"></p>
+          </div>
+
+          <div class="card_img">
+            <img src="img/bolo_red_velvet.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- <div class="card_single">
+
+    <div class="informacoes">
+        <span class="nome"></span>
+        <p class="descrição">"descrição do prato"</p>
+    </div>
+
+    <div class="card_img">
+        <img src="">
+    </div>
+
+</div> -->
